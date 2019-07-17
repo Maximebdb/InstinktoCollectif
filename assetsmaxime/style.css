@@ -159,19 +159,19 @@ h1, h2 {
 }
 
 @media (min-width: 992px) {
-  .banner {background-image: url("../assets/images/banner.png");}
+  .banner {background-image: url("../assetsmaxime/images/banner.png");}
   .banner .logo img {height:42px;  padding-bottom:6px;}
   .banner h2{font-size:21px;}
   .banner .bonjour .keyword {font-size:50px;}
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  .banner {background-image: url("../assets/images/banner.png");}
+  .banner {background-image: url("../assetsmaxime/images/banner.png");}
   .banner .logo img {height:36px;  padding-bottom:6px;}
   .banner h2{font-size:18px;}
   .banner .bonjour .keyword {font-size:40px;}
 }
 @media (max-width: 767px) {
-  .banner {background-image: url("../assets/images/bannerphone.png");}
+  .banner {background-image: url("../assetsmaxime/images/bannerphone.png");}
   .banner .logo img {height:30px;  padding-bottom:6px;}
   .banner h2{font-size:14px;}
   .banner .bonjour .keyword {font-size:30px;}
@@ -247,7 +247,7 @@ h1, h2 {
 
 .valeursperso {
   text-align:center;
-  background-image: url("../assets/images/greywood.jpg");
+  background-image: url("../assetsmaxime/images/greywood.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position:center;
@@ -269,7 +269,7 @@ h1, h2 {
 
 .temoignages {
   padding-bottom:40px;
-  background-image: url("../assets/images/bannerbleueetpattern.jpg");
+  background-image: url("../assetsmaxime/images/bannerbleueetpattern.jpg");
   background-size:cover;
 }
 #carouseltemoignages {

@@ -187,6 +187,21 @@ input, select, textarea {
 		font-weight: 600;
 	}
 
+	.commentaire {
+		font-style: italic;
+	}
+	.commentaire a {
+		color:var(--blue);
+		font-weight:600;
+		text-decoration: none;
+	}
+
+	.commentaire a {
+		color:var(--blue);
+		font-weight:600;
+		text-decoration: none;
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
 		font-weight: 600;
@@ -223,6 +238,11 @@ input, select, textarea {
 		letter-spacing: 0.5rem;
 	}
 
+	.interieure {
+		font-size: 1rem;
+		letter-spacing: 0.1rem;
+	}
+
 	h3 {
 		font-size: 1rem;
 	}
@@ -253,6 +273,10 @@ input, select, textarea {
 		h2 {
 			font-size: 1.25em;
 			line-height: 1.5;
+		}
+		.interieure {
+			font-size: 0,75rem;
+			letter-spacing: 0.1rem;
 		}
 
 	}

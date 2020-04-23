@@ -526,6 +526,23 @@ input[type="button"] {
   height: 100%;
   overflow: hidden; }
 
+.bouton a {
+  display:block;
+  width:300px;
+  line-height:50px;
+  text-align:center;
+  vertical-align:middle;
+  border:solid 10px #00b8ae;
+  color:#00b8ae;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-weight: bold;
+}
+.bouton a:hover {
+  background-color:#00b8ae;
+  color:white;
+}
+
 /************************* Introduction ************************ */
 .introduction {
   position: relative;
@@ -625,7 +642,9 @@ input[type="button"] {
   position: relative;
   width: 100%;
   padding: 120px 0 60px 0;
-  background-color: #fafafa; }
+  background-color: white; }
+  .blurb--framed {
+          background-color:white;}
   .work__list {
     position: relative;
     padding: 60px 0; }
@@ -766,10 +785,39 @@ input[type="button"] {
       font-size: 32px; } }
 
 /************************* Contact ************************ */
-.contact {
+.inscription {
   position: relative;
   padding: 60px 0;
   background-color: #fafafa; }
+  
+.inscription .bouton a {
+  display:block;
+  width:300px;
+ margin:auto;
+}
+
+  .inscription_content {
+      text-align:center;
+      padding: 20px;
+      width:60%;
+      margin:auto;
+    }
+  @media (max-width: 991px) {
+    .inscription__heading {
+      font-size: 48px; } }
+  @media (max-width: 767px) {
+    .inscription__heading {
+      font-size: 32px; }}
+  @media (max-width: 480px) {
+    .contact__visual {
+      max-width: 100%; }
+  }
+
+/************************* Contact ************************ */
+.contact {
+  position: relative;
+  padding: 60px 0;
+  background-color: white; }
   .contact__wrapper {
     display: flex;
     align-items: center;
@@ -824,6 +872,8 @@ input[type="button"] {
         height: 40px; }
       .contact__form-el--message {
         height: 90px; } }
+
+/************************* Contact ************************ */
 
 
 /*# sourceMappingURL=main.css.map */

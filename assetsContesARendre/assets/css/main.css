@@ -267,6 +267,9 @@ input,
 textarea {
   outline: none; }
 
+.text_blue{
+  color:#00b8ae;}
+
 .bold {
   font-weight: 700; }
 

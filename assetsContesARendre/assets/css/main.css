@@ -806,13 +806,12 @@ input[type="button"] {
 .inscription .bouton a {
   display:block;
   width:300px;
- margin:auto;
+  margin:auto;
 }
 
   .inscription_content {
       text-align:center;
       padding: 20px;
-      width:60%;
       margin:auto;
     }
   @media (max-width: 991px) {

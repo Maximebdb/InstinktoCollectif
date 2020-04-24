@@ -254,7 +254,7 @@ body {
 
 a {
   display: inline-block;
-  color: #00b8ae;
+  color: #00b8ae; 
   text-decoration: none; }
 
 ul,
@@ -338,11 +338,7 @@ textarea {
     font-weight: 800;
     background-color: #fff; }
 
-.logo {
-  color: #585858;
-  font-size: 34px;
-  font-weight: 800;
-  text-transform: uppercase; }
+
 
 .transform-link {
   font-weight: 700; }
@@ -824,6 +820,24 @@ input[type="button"] {
     .contact__visual {
       max-width: 100%; }
   }
+  .reseausociaux {
+    margin:0;
+  }
+  .logo {
+    color: #585858;
+    font-size: 45px;
+    font-weight: 800;
+    text-transform: uppercase; 
+  }
+
+  .reseausociaux a {
+    margin:0px 10px;
+    color:#9e9e9e; 
+  }
+
+  .reseausociaux a:hover {
+    color:#00b8ae; 
+  }
 
 /************************* Contact ************************ */
 .contact {
@@ -886,6 +900,15 @@ input[type="button"] {
         height: 90px; } }
 
 /************************* Contact ************************ */
+
+footer{
+  text-align:center;
+}
+footer p{
+  font-size:10px;
+  font-style:italic;
+}
+
 
 
 /*# sourceMappingURL=main.css.map */

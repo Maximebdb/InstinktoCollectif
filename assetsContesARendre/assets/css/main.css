@@ -257,33 +257,6 @@ ol {
     .splashscreen--is-hidden .preloader {
       opacity: 0; }
 
-.preloader {
-  position: relative;
-  width: 200px;
-  height: 150px;
-  transition: opacity 0.4s; }
-  .preloader::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 45px;
-    bottom: 0;
-    border: 10px solid #00b8ae;
-    animation: fadeInOut 1.6s linear infinite; }
-  .preloader__text {
-    position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%);
-    padding: 10px 0;
-    color: #585858;
-    font-size: 32px;
-    font-weight: 800;
-    background-color: #fff; }
-
-
-
 .transform-link {
   font-weight: 700; }
   .transform-link::after {
@@ -295,7 +268,6 @@ ol {
     transition: transform 0.2s ease-out; }
   .transform-link:hover::after {
     transform: translateY(3px) scaleY(3); }
-
 
 
 .blurb--framed {
@@ -349,27 +321,29 @@ ol {
     transform: scale(1); } }
 
 
+
 .scroll-lock {
   position: fixed;
   width: 100%;
   height: 100%;
   overflow: hidden; }
 
-.bouton a {
-  display:block;
-  width:300px;
-  line-height:50px;
-  text-align:center;
-  vertical-align:middle;
-  border:solid 10px #00b8ae;
-  color:#00b8ae;
-  text-decoration:none;
-  text-transform:uppercase;
-  font-weight: bold;
+/************************* Introduction ************************ */
+
+
+input {
+  height:35px;
+  padding:5px 70px 5px 50px;
+  font-size:17px;
 }
-.bouton a:hover {
+.form_bouton {
+  height:49px;
+  padding:0px 70px;
   background-color:#00b8ae;
+  border:#00b8ae;
   color:white;
+  font-size:17px;
+  font-weight: 700;
 }
 
 /************************* Introduction ************************ */
@@ -418,24 +392,24 @@ ol {
       animation: none; } }
 
 
-/************************* App Design ************************ */
-.app-design {
+/************************* bienvenue ************************ */
+.bienvenue {
   position: relative;
   width: 100%;
   padding: 50px 0px;
   overflow: hidden; }
   @media (max-width: 991px) {
-    .app-design__content h2 {
+    .bienvenue__content h2 {
       font-size: 48px; } }
   @media (max-width: 767px) {
-    .app-design {
+    .bienvenue {
       padding: 60px 0; }
-      .app-design__content {}
-        .app-design__content h2 {
+      .bienvenue__content {}
+        .bienvenue__content h2 {
           font-size: 32px; }
-          .app-design__content h2 br {
+          .bienvenue__content h2 br {
             display: none; }
-        .app-design__content p {
+        .bienvenue__content p {
           margin: 0 auto 20px auto; } }
 
 /************************* Web Design ************************ */
@@ -690,71 +664,24 @@ ol {
     }
 }
 
-/************************* Contact ************************ */
+/************************* Form ************************ */
 
-
-#mc_embed_signup{
-  clear:left; 
-  font:14px Helvetica,Arial,sans-serif; 
-  width:100%;
+.bouton a {
+  display:block;
+  width:300px;
+  line-height:50px;
+  text-align:center;
+  vertical-align:middle;
+  border:solid 10px #00b8ae;
+  color:#00b8ae;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-weight: bold;
 }
-
-#mc_embed_signup input{
-  line-height: 1.6;
-  font-family: "Merriweather Sans", sans-serif;
-  padding-left:10px;
-}
-
-#mc_embed_signup_scroll {
-  display:flex;
-  align-items: center;
-}
-
-#mce-EMAIL{
-  height: 45px;
-  border-radius:3px;
-  margin:3px;
-}
-#mc-embedded-subscribe{
-  font-size: 17px;
-  height: 51px;
-  border-radius:3px;
+.bouton a:hover {
   background-color:#00b8ae;
-  border:solid #00b8ae;
   color:white;
 }
-
-@media (min-width: 768px) {
-  #mce-EMAIL{
-    width:230px;
-  }
-  #mc-embedded-subscribe{
-    width:250px;
-  }
-}
-@media (max-width: 767px) {
-  #mce-EMAIL{
-    max-width:230px;
-  }
-  #mc-embedded-subscribe{
-    width:130px;
-  }
-}
-@media (max-width: 480px) {
-  #mce-EMAIL{
-    max-width:230px;
-  }
-  #mc-embedded-subscribe{
-    width:130px;
-  }
-}
-
-#mc-embedded-subscribe:hover {
-  background-color:white;
-  color:#00b8ae;
-  border:solid #00b8ae;
-}
-
 
 footer{
   text-align:center;
